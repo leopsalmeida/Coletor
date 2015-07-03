@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pauer.coletorandroid" >
+    package="br.halley.pauer.coletorandroid" >
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:theme="@style/AppTheme" >
 
         <activity
-            android:name=".SplashActivity"
+            android:name="br.halley.pauer.coletorandroid.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.FullScreen" >
@@ -20,7 +20,7 @@
         </activity>
 
         <activity
-            android:name=".MainActivity"
+            android:name="br.halley.pauer.coletorandroid.MainActivity"
             android:label="@string/app_name" >
         </activity>
 
